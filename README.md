@@ -1,4 +1,3 @@
-# AuthenticationSimpleSample
 
 <p align="center">
     <img width="800" src="./images/src.gif">
