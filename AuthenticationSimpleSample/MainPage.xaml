@@ -24,7 +24,7 @@
                    TextColor="Black"
                    HorizontalOptions="Center" />
 
-            <!--This button will open a buit-in page from Microsoft-->
+            <!--This button will open a buit-in page from Microsoft AD-->
             <Button x:Name="LoginResultLabel"
                     Text="Login"
                     FontFamily="MainFont"
