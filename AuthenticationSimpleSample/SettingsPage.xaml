@@ -17,13 +17,13 @@
         <!--Make the users profile appear on this page instead of the main page-->
         <Grid Padding="20" RowSpacing="10" RowDefinitions="50, 150, *">
             <HorizontalStackLayout Grid.Row="0" Spacing="10">
-                <Label Text="Name: " />
-                <Label x:Name="ProfileName" Text="Profile name should be displayed here.." />
+                <Label Text="Name: " FontFamily="MainFont" FontAttributes="Bold" />
+                <Label x:Name="ProfileName" Text="Profile name should be displayed here.." FontFamily="MainFont" />
             </HorizontalStackLayout>
 
             <HorizontalStackLayout Grid.Row="1" Spacing="10">
-                <Label Text="Email: " />
-                <Label x:Name="ProfileEmaii" Text="Profile email should be displyed here.." />
+                <Label Text="Email: " FontFamily="MainFont" FontAttributes="Bold" />
+                <Label x:Name="ProfileEmaii" Text="Profile email should be displyed here.." FontFamily="MainFont"/>
             </HorizontalStackLayout>
         </Grid>
 
@@ -42,6 +42,5 @@
                 FontFamily="MainFont"
                 Clicked="Back"
                 HorizontalOptions="Center" />
-        
     </StackLayout>
 </ContentPage>

@@ -19,8 +19,5 @@ namespace AuthenticationSimpleSample.Auth
         public static readonly string SignInPolicy = "B2C_1_Client"; // from user flows
         public static readonly string AuthorityBase = $"https://{TenantName}.b2clogin.com/tfp/{TenantId}/";
         public static readonly string AuthoritySignIn = $"{AuthorityBase}{SignInPolicy}";
-
-
-
     }
 }

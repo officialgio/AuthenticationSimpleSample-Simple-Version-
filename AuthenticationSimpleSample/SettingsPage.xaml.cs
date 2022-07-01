@@ -9,8 +9,5 @@ public partial class SettingsPage : ContentPage
 		InitializeComponent();
 	}
 
-    private void Back(object sender, EventArgs e)
-    {
-        Shell.Current.GoToAsync("..");
-    }
+    private void Back(object sender, EventArgs e) => Shell.Current.GoToAsync("..");
 }
