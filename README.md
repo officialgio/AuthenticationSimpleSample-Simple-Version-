@@ -1,6 +1,6 @@
 
 <p align="center">
-    <img width="800" src="./screenshots/Animation.gif">
+    <img width="100" src="./screenshots/Animation.gif">
 </p>
 
 <h1 align="center">Simple Authentication Sample</h1>
