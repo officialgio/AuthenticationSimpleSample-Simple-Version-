@@ -24,6 +24,7 @@ public partial class MainPage : ContentPage
             var claims = data.Claims.ToList();
             if (data != null)
             {
+                await Shell.Current.GoToAsync(nameof(SettingsPage));
                 var stringBuilder = new StringBuilder();
                 stringBuilder.AppendLine($"Name: {data.Claims.FirstOrDefault(x => x.Type.Equals("name"))?.Value}");
                 stringBuilder.AppendLine($"Email: {data.Claims.FirstOrDefault(x => x.Type.Equals("preferred_username"))?.Value}");

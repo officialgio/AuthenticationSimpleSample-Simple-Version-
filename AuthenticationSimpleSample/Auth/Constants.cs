@@ -8,7 +8,7 @@ namespace AuthenticationSimpleSample.Auth
 {
     public static class Constants
     {
-        // all info can be found in your Azure AD B2C directory
+        // All info can be found in your Azure AD B2C directory
         // AD
         public static readonly string ClientId = "46ae553c-44c6-40bd-aded-daca74801f3e"; // from App Registrations 
         public static readonly string[] Scopes = new string[] { "openid", "offline_access" };
