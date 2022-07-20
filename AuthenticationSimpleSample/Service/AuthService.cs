@@ -27,6 +27,7 @@ public class AuthService
             result = await authenticationClient
                 .AcquireTokenInteractive(Constants.Scopes) // call the AcquireTokenXXX method corresponding to the flow you want to use
                 .WithPrompt(Prompt.ForceLogin) //  command builder => prompt user for credemtials
+                .WithUseEmbeddedWebView(true)
 #if ANDROID
                 .WithParentActivityOrWindow(Microsoft.Maui.ApplicationModel.Platform.CurrentActivity)
 #endif
