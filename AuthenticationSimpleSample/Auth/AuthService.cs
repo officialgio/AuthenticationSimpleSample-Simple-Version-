@@ -14,6 +14,7 @@ namespace AuthenticationSimpleSample.Auth
         {
             // instantiate authentication client -> picks up the information (get tokens) 
             authenticationClient = PublicClientApplicationBuilder.Create(Constants.ClientId)
+                .WithIosKeychainSecurityGroup("com.microsoft.adalcache")
                 .WithB2CAuthority(Constants.AuthoritySignIn) // uncomment to support B2C ->  provides the default Authority, or policy, that will be used to authenticate users.
                 .WithRedirectUri($"msal{Constants.ClientId}://auth")
                 .Build();
